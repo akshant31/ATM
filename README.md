@@ -2,6 +2,8 @@
 
 Implement Rest API for ATM Backend service.
 
+
+
 # To Run
 
 Clone this repository<br /> 
@@ -17,6 +19,9 @@ Choose the Spring Boot Application file (search for @SpringBootApplication)<br /
 Right Click on the file and Run as Java Application<br />
 
 By default it will run in 8080 port
+
+# UML diagram link -- 
+https://github.com/akshant31/ATM/blob/main/uml.JPG
 
 # To Test Api
 
@@ -56,3 +61,9 @@ curl --location --request POST 'localhost:8080/newUser' \<br />
 "account_type":"savings"<br />
 }'<br />
 
+
+# Assumptions and Additional info
+
+- Name, City, Phone no required for opening account <br />
+- Only integer value can be debited or credited. <br />
+- As no UI , hardcoded the message string.
